@@ -5,7 +5,6 @@
 int
 main(int argc, char *argv[])
 {
-	int newUser = compareuser(0);
-	setuser(newUser);
+	compareuser(0);
 	exit();
 }
