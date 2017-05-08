@@ -1,0 +1,15 @@
+Add the functionality to login into xv6 on start up.
+The hard coded accounts are:
+user: john
+pass: 1234
+user: james
+pass: pass
+
+use su call to change current user
+use au call to add user to auth_passwd.confi file
+
+Currently there are 2 user levels:
+0 which is read only access
+1 which is read write access.
+
+the only thing that is affected by this is the rm command right now.
